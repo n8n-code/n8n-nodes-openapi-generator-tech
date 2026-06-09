@@ -85,7 +85,7 @@ export const serversDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "File Id",
+			"displayName": "File ID",
 			"name": "fileId",
 			"required": true,
 			"description": "fileId",
@@ -220,7 +220,7 @@ export const serversDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Open API Url",
+			"displayName": "Open API URL",
 			"name": "openAPIUrl",
 			"type": "string",
 			"default": "https://raw.githubusercontent.com/OpenAPITools/openapi-generator/master/modules/openapi-generator/src/test/resources/2_0/petstore.yaml",

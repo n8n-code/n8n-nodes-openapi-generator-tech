@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-openapi-generator-tech",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An online openapi generator server. You can find out more at https://github.com/OpenAPITools/openapi-generator",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-openapi-generator-tech",
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "openapi-generator-tech"

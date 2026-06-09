@@ -4,14 +4,14 @@ import { serversDescription } from './resources/servers';
 
 export class OpenapiGeneratorTech implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'openapi-generator-tech',
+		displayName: 'Openapi Generator Tech',
 		name: 'N8nDevOpenapiGeneratorTech',
 		icon: { light: 'file:./openapi-generator-tech.svg', dark: 'file:./openapi-generator-tech.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'An online openapi generator server. You can find out more at https://github.com/OpenAPITools/openapi-generator',
-		defaults: { name: 'openapi-generator-tech' },
+		defaults: { name: 'Openapi Generator Tech' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

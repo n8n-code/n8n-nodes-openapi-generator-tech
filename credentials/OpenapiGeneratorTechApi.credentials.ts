@@ -8,7 +8,7 @@ import type {
 export class OpenapiGeneratorTechApi implements ICredentialType {
 	name = 'N8nDevOpenapiGeneratorTechApi';
 
-	displayName = 'openapi-generator-tech API';
+	displayName = 'Openapi Generator Tech API';
 
 	icon: Icon = { light: 'file:../nodes/OpenapiGeneratorTech/openapi-generator-tech.svg', dark: 'file:../nodes/OpenapiGeneratorTech/openapi-generator-tech.dark.svg' };
 
@@ -22,7 +22,7 @@ export class OpenapiGeneratorTechApi implements ICredentialType {
 			default: '//api.openapi-generator.tech',
 			required: true,
 			placeholder: '//api.openapi-generator.tech',
-			description: 'The base URL of your openapi-generator-tech API server',
+			description: 'The base URL of your Openapi Generator Tech API server',
 		},
 		{
 			displayName: 'API Key',

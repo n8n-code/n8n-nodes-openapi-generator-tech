@@ -13,7 +13,7 @@ Every time you connect n8n to openapi-generator-tech, you waste hours mapping en
 
 **What if connecting n8n to openapi-generator-tech took 5 minutes, not half a day?**
 
-This node gives you **3+ resources** out of the box: **Clients**, **Servers**, **Gen Api Controller**: with full CRUD operations, typed parameters, and zero manual configuration.
+This node gives you **3+ resources** out of the box: **Clients**, **Servers**, **Gen API Controller**: with full CRUD operations, typed parameters, and zero manual configuration.
 
 ---
 
@@ -53,10 +53,25 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Clients | Gets languages supported by the client generator, Get returns options for a client library, Post generates a client library, Get downloads a pregenerated file |
-| Servers | Get downloads a pregenerated file, Gets languages supported by the server generator, Get returns options for a server framework, Post generates a server library |
+<details>
+<summary><b>Clients</b> (4 operations)</summary>
+
+- Get s languages supported by the client generator
+- Get Returns options for a client library
+- Post Generates a client library
+- Get Downloads a pre generated file
+
+</details>
+
+<details>
+<summary><b>Servers</b> (4 operations)</summary>
+
+- Get Downloads a pre generated file
+- Get s languages supported by the server generator
+- Get Returns options for a server framework
+- Post Generates a server library
+
+</details>
 
 ---
 
